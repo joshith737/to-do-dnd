@@ -1,0 +1,83 @@
+.main {
+  position: relative;
+}
+.list {
+  align-items: center;
+  margin-top: 10px;
+  position: absolute;
+  top: 35%;
+  left: 36%;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma;
+  padding: 30px;
+}
+.li {
+  margin: auto;
+  width: 50%;
+  height: 50px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  font-family: "Segoe UI", Tahoma;
+}
+#it {
+  list-style: square;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+#btadd {
+  font-family: monospace;
+  font-size: 20px;
+  border-width: 1px;
+  background-color: rgba(56, 17, 17, 0.514);
+  border-radius: 0.3cm;
+  border: solid rgb(54, 50, 50);
+  width: 100px;
+  margin-left: 10px;
+}
+#dl {
+  font-family: initial;
+  width: 80px;
+  height: 25px;
+  margin-left: auto;
+  margin: auto;
+}
+
+#im {
+  height: 100%;
+  width: 100%;
+}
+input {
+  border-style: solid;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  border-radius: 0.3cm;
+  opacity: 70%;
+  position: center;
+}
+.itm {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#btdel {
+  font-family: monospace;
+  font-size: 20px;
+  border-width: 1px;
+  background-color: rgba(206, 108, 108, 0.514);
+  border-radius: 0.3cm;
+  border: solid rgb(204, 27, 27);
+  width: 100px;
+  margin-left: 10px;
+}
