@@ -40,7 +40,11 @@ const AddItems = () => {
         <DragDropContext onDragEnd={handleOnDragEnd}>
           <Droppable droppableId="characters">
             {(provided) => (
-              <ul {...provided.droppableProps} ref={provided.innerRef}>
+              <ul
+                className="ul"
+                {...provided.droppableProps}
+                ref={provided.innerRef}
+              >
                 {todos.map((items, i) => (
                   <Draggable key={items.id} draggableId={items.id} index={i}>
                     {(provided) => (
@@ -51,7 +55,9 @@ const AddItems = () => {
                         ref={provided.innerRef}
                       >
                         {items.task}
-                        <button onClick={() => del(items.id)}>Delete</button>
+                        <button className="btdel" onClick={() => del(items.id)}>
+                          Delete
+                        </button>
                       </li>
                     )}
                   </Draggable>
