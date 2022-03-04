@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-// import "./AddItems.css";
+import "./AddItems.css";
 
 const AddItems = () => {
   const [input, setinput] = useState(" ");
