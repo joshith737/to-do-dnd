@@ -11,7 +11,11 @@ const AddItems = () => {
     setinput(e.target.value);
   };
   const add = () => {
-    settodos([...todos, { task: input, id: Date() }]);
+    if (input === "") {
+      alert("Field is Empty");
+    } else {
+      settodos([...todos, { task: input, id: Date() }]);
+    }
     setinput("");
   };
   const del = (id) => {
